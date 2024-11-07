@@ -1,0 +1,44 @@
+<dependencies>
+    <!-- Hibernate Core -->
+    <dependency>
+        <groupId>org.hibernate.orm</groupId>
+        <artifactId>hibernate-core</artifactId>
+        <version>6.5.2.Final</version>
+    </dependency>
+
+    <!-- PostgreSQL JDBC Driver -->
+    <dependency>
+        <groupId>org.postgresql</groupId>
+        <artifactId>postgresql</artifactId>
+        <version>42.7.3</version>
+    </dependency>
+
+    <!-- Lombok for getters/setters generation -->
+    <dependency>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.34</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <!-- Faker for generating random data -->
+    <dependency>
+        <groupId>com.github.javafaker</groupId>
+        <artifactId>javafaker</artifactId>
+        <version>1.0.2</version>
+    </dependency>
+
+    <!-- Jakarta Persistence API for Entity annotations -->
+    <dependency>
+        <groupId>jakarta.persistence</groupId>
+        <artifactId>jakarta.persistence-api</artifactId>
+        <version>3.1.0</version> <!-- Використовуємо Jakarta, а не javax -->
+    </dependency>
+
+    <!-- Hibernate Validator for bean validation (optional but recommended) -->
+    <dependency>
+        <groupId>org.hibernate</groupId>
+        <artifactId>hibernate-validator</artifactId>
+        <version>6.2.0.Final</version>
+    </dependency>
+</dependencies>
